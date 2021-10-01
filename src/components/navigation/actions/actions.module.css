@@ -1,0 +1,18 @@
+.list{
+   width: 400px;
+   margin-left: 30px;
+   color: honeydew;
+}
+.list_render
+{
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.list_render:hover{
+    cursor: pointer;
+}
