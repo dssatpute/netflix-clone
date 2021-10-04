@@ -7,9 +7,10 @@ const Hero = () => {
     return (
         <div className={styles.hero}>
             <div className={styles.image_container}>
-                <img src={main_img} alt="" srcset="" />
+                <img src={main_img} alt="" srcset="" />    
             </div>
-            <WelcomeHero/>
+             <WelcomeHero/>
+           
         </div>
     );
 }
